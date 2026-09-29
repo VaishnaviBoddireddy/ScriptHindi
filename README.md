@@ -1,0 +1,2 @@
+# ScriptHindi
+JavaScript
