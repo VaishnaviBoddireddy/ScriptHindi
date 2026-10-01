@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/scriptHindiDB')
+mongoose.connect('mongodb+srv://<boddireddy100052000_db_user>:<DSaCF6q0MghVmQSb>@cluster0.9tkj7sg.mongodb.net/?appName=Cluster0')
     .then(() => console.log('Connected to MongoDB'))
     .catch(err => console.error('Could not connect to MongoDB', err));
 
