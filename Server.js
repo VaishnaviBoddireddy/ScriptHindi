@@ -8,6 +8,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.use(express.static(__dirname));
 
 // Connect to MongoDB
 mongoose.connect('mongodb+srv://boddireddy100052000_db_user:DSaCF6q0MghVmQSb@cluster0.9tkj7sg.mongodb.net/?appName=Cluster0')
