@@ -16,7 +16,7 @@ mongoose.connect('mongodb+srv://boddireddy100052000_db_user:DSaCF6q0MghVmQSb@clu
 
 // Routes
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/Index.html');
+    res.sendFile(__dirname + '/index.html');
 });
 
 // Schemas and Models (You can add your schemas here)
