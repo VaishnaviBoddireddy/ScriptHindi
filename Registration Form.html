@@ -1,42 +1,44 @@
 <link rel="stylesheet" href="styles.css">
 <div class="registration-form">
     <h3>Registration/ Sign Up form</h3>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br><br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br><br>
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required><br><br>
-    <label for="confirm-password">Confirm Password:</label>
-    <input type="password" id="confirm-password" name="confirm-password" required><br><br>
-    <label for="gender">Gender:</label>
-    <input type="radio" id="male" name="gender" value="male" required>
-    <label for="male">Male</label>
-    <input type="radio" id="female" name="gender" value="female" required>
-    <label for="female">Female</label><br><br>
-    <label for="phone">Phone Number:</label>
-    <input type="tel" id="phone" name="phone" required><br><br>
-    <label for="Education">Education:</label>
-    <select id="Education" name="Education" required>
-        <option value="">Select Education</option>
-        <option value="high-school">High School</option>
-        <option value="Bachelor">Bachelor's Degree</option>
-        <option value="Master">Master's Degree</option>
-        <option value="PhD">PhD</option>
-        <option value="other">Other</option>
-    </select><br><br>
-    <label for="Experience">Experience:</label>
-    <textarea id="Experience" name="Experience" required></textarea><br><br>
-    <label for="Years">Years of Experience:</label>
-    <select id ="Years" name="Years" required>
-       <option value="">Select Experience</option>
-       <option value="0-1">0-1 years</option>
-       <option value="1-3">1-3 years</option>
-       <option value="3-5">3-5 years</option>
-       <option value="5+">5+ years</option>
-    </select><br><br>
-    <input type="checkbox" id="terms" name="terms" required>
-    <label for="terms">I agree to the terms and conditions</label><br><br>
-    <button type="submit">Register</button>
+    <form action="/register" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        <label for="Education">Education:</label>
+        <select id="Education" name="Education" required>
+           <option value="">Select Education</option>
+           <option value="high-school">High School</option>
+           <option value="Bachelor">Bachelor's Degree</option>
+           <option value="Master">Master's Degree</option>
+           <option value="PhD">PhD</option>
+           <option value="other">Other</option>
+       </select><br><br>
+       <label for="Experience">Experience:</label>
+       <textarea id="Experience" name="Experience" required></textarea><br><br>
+       <label for="Years">Years of Experience:</label>
+       <select id ="Years" name="Years" required>
+          <option value="">Select Experience</option>
+          <option value="0-1">0-1 years</option>
+          <option value="1-3">1-3 years</option>
+          <option value="3-5">3-5 years</option>
+          <option value="5+">5+ years</option>
+       </select><br><br>
+       <input type="checkbox" id="terms" name="terms" required>
+       <label for="terms">I agree to the terms and conditions</label><br><br>
+       <button type="submit">Register</button>
+    </form>
 </div>
 
