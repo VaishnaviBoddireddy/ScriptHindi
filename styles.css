@@ -33,12 +33,46 @@ main{
     border: none;
 }
 .services{
-    background-color:lightgreen;
     text-align:center;
-    border: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+
 }
 #frontend{
     text-align:center;
-    background-color: transparent;
-    border: none;
+    background-color: mediumaquamarine;
+    flex: 1;
+}
+#frontend ul{
+    list-style-type: none;
+}
+#backend{
+    text-align:center;
+    background-color: mediumaquamarine;
+    flex: 1;
+}
+#backend ul{
+    list-style-type: none;
+}
+#design{
+    text-align:center;
+    background-color: mediumaquamarine;
+    flex: 1;
+}
+#design ul{
+    list-style-type: none;
+}
+#maintenance{
+    text-align:center;
+    background-color: mediumaquamarine;
+    flex: 1;
+}
+#maintenance ul{
+    list-style-type: none;
+}
+h3{
+    text-align:center;
 }
