@@ -32,3 +32,13 @@ main{
     background-color: transparent;
     border: none;
 }
+.services{
+    background-color:lightgreen;
+    text-align:center;
+    border: none;
+}
+#frontend{
+    text-align:center;
+    background-color: transparent;
+    border: none;
+}
