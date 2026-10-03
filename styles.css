@@ -118,15 +118,14 @@ h3{
     text-align:center;
 }
 #header {
-    border: 2px solid black;
+    border: 2px solid transparent;
     text-align: center;
 }
 #body{
-    background-color: bisque;
-    color: cadetblue;
+    list-style-type: none;
     text-align: center;
 }
 #footer{
-    border: 2px solid black;
+    border: 2px solid transparent;
     text-align: center;
 }
