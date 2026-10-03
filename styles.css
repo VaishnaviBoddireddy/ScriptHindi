@@ -125,6 +125,10 @@ h3{
     background-color: bisque;
     color: cadetblue;
     text-align: center;
+    flex-direction: row;
+    display:flex;
+    gap: 20px;
+    margin:20px auto;
 }
 #footer{
     border: 2px solid black;
