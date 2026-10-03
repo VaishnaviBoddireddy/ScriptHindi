@@ -117,3 +117,16 @@ h3{
     padding: 20px;
     text-align:center;
 }
+#header {
+    border: 2px solid black;
+    text-align: center;
+}
+#body{
+    background-color: bisque;
+    color: cadetblue;
+    text-align: center;
+}
+#footer{
+    border: 2px solid black;
+    text-align: center;
+}
